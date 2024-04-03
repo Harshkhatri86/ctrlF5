@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Server Side Rendering 
+
+The server-side rendering of the project works on the below process 
+
+``` npm i  
+npm run build 
+npm run ssr
+```
+
+this script starts the server at default port 3006
+Check the page source code.
+
 ## Available Scripts
 
 In the project directory, you can run:
