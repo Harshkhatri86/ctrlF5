@@ -1,0 +1,42 @@
+.VictoryInsurance {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.VictoryInsurance_content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 50px;
+  width: 75%;
+}
+
+.VictoryInsurance_content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border-right: 1px dashed black;
+}
+
+.VictoryInsurance_content > div:last-child {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .VictoryInsurance_content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+  }
+  .VictoryInsurance_content > div {
+    border-bottom: 1px dashed black;
+    border-right: none;
+  }
+
+  .VictoryInsurance_content > div:last-child {
+    border: none;
+  }
+}

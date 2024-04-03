@@ -1,0 +1,6 @@
+.IconsComp{
+    display: flex;
+    text-align: center;
+    width: 90%;
+    flex-direction: column;
+}

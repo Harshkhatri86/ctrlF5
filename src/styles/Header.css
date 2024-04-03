@@ -1,0 +1,12 @@
+.Header_Head {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Header_Head>img{
+    width: 10%;
+    height: 80%;
+}

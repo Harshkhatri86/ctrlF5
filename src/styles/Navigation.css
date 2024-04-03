@@ -1,0 +1,19 @@
+.Navigation{
+    display: flex;
+    flex-direction: row;   
+}
+
+.Navigation>ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    gap: 25px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px){
+    .Navigation{
+        display: none;
+    }
+}
